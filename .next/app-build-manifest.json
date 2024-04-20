@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "/[lang]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/layout.css",
+      "static/chunks/app/[lang]/layout.js"
+    ],
+    "/[lang]/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/(dashboard)/layout.css",
+      "static/chunks/app/[lang]/(dashboard)/layout.js"
+    ],
+    "/[lang]/(dashboard)/dashboards/crm/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/(dashboard)/dashboards/crm/page.css",
+      "static/chunks/app/[lang]/(dashboard)/dashboards/crm/page.js"
+    ],
+    "/[lang]/(dashboard)/dashboards/analytics/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/(dashboard)/dashboards/analytics/page.css",
+      "static/chunks/app/[lang]/(dashboard)/dashboards/analytics/page.js"
+    ],
+    "/[lang]/(dashboard)/dashboards/ecommerce/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/(dashboard)/dashboards/ecommerce/page.css",
+      "static/chunks/app/[lang]/(dashboard)/dashboards/ecommerce/page.js"
+    ],
+    "/[lang]/(dashboard)/apps/roles/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/(dashboard)/apps/roles/page.css",
+      "static/chunks/app/[lang]/(dashboard)/apps/roles/page.js"
+    ]
+  }
+}
